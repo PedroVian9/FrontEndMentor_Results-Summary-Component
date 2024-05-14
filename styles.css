@@ -1,0 +1,103 @@
+@import url(reset.css);
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    flex-direction: row;
+    height: 100vh;
+    font-family: Hanken Grotesk;
+}
+
+.card-principal {
+    display: flex;
+    background-color: aqua;
+    border-radius: 25px;
+    width: 50%;
+}
+
+.card-esquerda {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 25px;
+    width: 50%;
+}
+
+.card-direita {
+    padding: 30px;
+    border-radius: 0 25px 25px 0;
+    width: 50%;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.resultado {
+    display: flex;
+    text-align: left;
+    justify-content: space-between; 
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.descricao {
+    padding-left: 10px;
+}
+
+.num {
+    padding-left: 70px;
+}
+
+.reaction {
+    background-color: chocolate;
+}
+
+.memory {
+    background-color: bisque;
+}
+
+.verbal {
+    background-color: blue;
+}
+
+.visual {
+    background-color: brown;
+}
+
+.button {
+    background-color: grey;
+    text-decoration: none;
+    padding:  15px 20px 15px 20px;
+    border-radius: 30px; 
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    margin-top: 30px;
+}
+
+.circulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
